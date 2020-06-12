@@ -1,15 +1,7 @@
 [
   {
-    "name": "All Comments Addressed",
-    "color": "006b75"
-  },
-  {
     "name": "Do Not Merge",
     "color": "b60205"
-  },
-  {
-    "name": "Final Review Passed",
-    "color": "0e8a16"
   },
   {
     "name": "Has Dependencies",
@@ -20,11 +12,7 @@
     "color": "d93f0b"
   },
   {
-    "name": "In Development",
-    "color": "fbca04"
-  },
-  {
-    "name": "In QA",
+    "name": "In Progress",
     "color": "fbca04"
   },
   {
@@ -32,32 +20,12 @@
     "color": "fbca04"
   },
   {
-    "name": "Initial Review Passed",
-    "color": "0e8a16"
-  },
-  {
-    "name": "Needs Final Review",
-    "color": "b60205"
-  },
-  {
     "name": "Needs Rebase",
     "color": "e99695"
   },
   {
-    "name": "Pending CI",
-    "color": "fef2c0"
-  },
-  {
     "name": "QA Failed",
     "color": "b60205"
-  },
-  {
-    "name": "QA Passed",
-    "color": "0e8a16"
-  },
-  {
-    "name": "Ready for QA",
-    "color": "c2e0c6"
   },
   {
     "name": "Ready for Review",
