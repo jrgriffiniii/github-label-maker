@@ -1,38 +1,38 @@
 [
   {
-    "name": "Do Not Merge",
+    "name": "do not merge",
     "color": "b60205"
   },
   {
-    "name": "Blocked",
+    "name": "blocked",
     "color": "5319e7"
   },
   {
-    "name": "Has Unaddressed Comments",
+    "name": "has unaddressed comments",
     "color": "d93f0b"
   },
   {
-    "name": "In Progress",
+    "name": "in progress",
     "color": "fbca04"
   },
   {
-    "name": "In Review",
+    "name": "in review",
     "color": "fbca04"
   },
   {
-    "name": "Needs Rebase",
+    "name": "needs rebase",
     "color": "e99695"
   },
   {
-    "name": "QA Failed",
+    "name": "qa failed",
     "color": "b60205"
   },
   {
-    "name": "Ready for Review",
+    "name": "ready for review",
     "color": "c2e0c6"
   },
   {
-    "name": "Tests Failing",
+    "name": "tests failing",
     "color": "b60205"
   },
   {
