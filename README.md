@@ -1,16 +1,22 @@
-# github-label-maker
+# Samvera Label Maker
 
-A set of bash scripts for deleting / creating labels within Github
+Docs: [![Contribution Guidelines](http://img.shields.io/badge/CONTRIBUTING-Guidelines-blue.svg)](./CONTRIBUTING.md) [![Apache 2.0 License](http://img.shields.io/badge/APACHE2-license-blue.svg)](./LICENSE)
 
----
+Jump in: [![Slack Status](http://slack.samvera.org/badge.svg)](http://slack.samvera.org/)
 
-![label maker](https://media.giphy.com/media/PObhPDzNyKyaY/giphy.gif)
+# What is the Samvera Label Maker?
 
----
+This is a set of bash scripts for deleting / creating labels within Github. This was forked from [marksost/github-label-maker](https://github.com/marksost/github-label-maker).
 
-If you're like me, you create a bunch of Github repos all of the time. And if you're also like me, you work on a team of talented developers who expect a standard set of labels to be present with they're opening PRs. Up until now, I've been creating these manually. I finally decided to be lazy and automate it, thus `github-label-maker` was born.
+## Product Owner & Maintenance
 
-## Installation and use
+`github-label-maker` aims to become a Core Component of the Samvera community. The documentation for what this means can be found [here](http://samvera.github.io/core_components.html#requirements-for-a-core-component).
+
+### Product Owner
+
+[jrgriffiniii](https://github.com/jrgriffiniii)
+
+## Usage
 
 To use this repository, clone it down locally, set up your shell environment, and run the scripts.
 
@@ -23,10 +29,10 @@ The `create-labels` script will take the contents of the `labels.json` file and 
 ## Examples
 
 ```
-$ delete-labels -o marksost -r github-label-maker
+$ delete-labels -o samvera-labs -r github-label-maker
 
 Deleting labels for the following organization and repository:
-  Organization: marksost
+  Organization: samvera-labs
   Repository: github-label-maker
 Getting labels for repository...
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -53,21 +59,35 @@ Deleting labels from repository...
    Delete label: Tests Failing...
 Labels deleted succesfully!
 
-$ create-labels -o marksost -r github-label-maker
+$ create-labels -o samvera-labs -r github-label-maker
 
 Creating labels for the following organization and repository:
-  Organization: marksost
+  Organization: samvera-labs
   Repository: github-label-maker
   Creating label with the following settings:
     Name: All Comments Addressed
     Color: 006b75
-{"id":858305072,"url":"https://api.github.com/repos/marksost/github-label-maker/labels/All%20Comments%20Addressed","name":"All Comments Addressed","color":"006b75","default":false}
+{"id":858305072,"url":"https://api.github.com/repos/samvera-labs/github-label-maker/labels/All%20Comments%20Addressed","name":"All Comments Addressed","color":"006b75","default":false}
 
 ...snip...
 
   Creating label with the following settings:
     Name: Tests Failing
     Color: b60205
-{"id":858305121,"url":"https://api.github.com/repos/marksost/github-label-maker/labels/Tests%20Failing","name":"Tests Failing","color":"b60205","default":false}
+{"id":858305121,"url":"https://api.github.com/repos/samvera-labs/github-label-maker/labels/Tests%20Failing","name":"Tests Failing","color":"b60205","default":false}
 Labels created succesfully!
 ```
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at <https://github.com/samvera-labs/github-label-maker>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Help
+
+The Samvera community is here to help. Please see our [support guide](./SUPPORT.md).
+
+# Acknowledgments
+
+This software has been developed by and is brought to you by the Samvera community. Learn more at the [Samvera website](http://samvera.org/).
+
+![Samvera Logo](https://wiki.duraspace.org/download/thumbnails/87459292/samvera-fall-font2-200w.png?version=1&modificationDate=1498550535816&api=v2)
